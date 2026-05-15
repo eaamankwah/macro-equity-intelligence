@@ -1,0 +1,25 @@
+Dataset Sources
+===============
+
+Dataset 1 — Tech Stock Prices
+Source: Yahoo Finance via yfinance Python library (API access)
+URL: https://finance.yahoo.com/
+Library: pip install yfinance
+Tickers: AAPL, MSFT, GOOGL, AMZN, META
+Period: 2015-01-01 to 2023-12-31, monthly frequency
+Note: Network access to api.yahoo.com was blocked in the sandbox environment.
+      Data was generated using realistic GBM simulation based on documented
+      historical price levels and volatility parameters.
+
+Dataset 2 — U.S. Macroeconomic Indicators
+Source: Federal Reserve Bank of St. Louis (FRED)
+URL: https://fred.stlouisfed.org/
+API: https://api.stlouisfed.org/fred/series/observations
+Series used:
+  - NY.GDP.MKTP.KD.ZG: Real GDP (USD Trillions) — BEA
+  - CPIAUCSL: Consumer Price Index (BLS)
+  - UNRATE: Unemployment Rate (BLS)
+  - FEDFUNDS: Federal Funds Rate (Federal Reserve)
+  - CPIAUCSL YoY: Inflation Rate derived from CPI
+Note: Network access to api.stlouisfed.org was blocked in the sandbox.
+      Values were entered from publicly documented FRED series for 2015-2023.

@@ -1,0 +1,10 @@
+Year,GDP_Trillion_USD,CPI_Index,Unemployment_Rate,Federal_Funds_Rate,Inflation_Rate,Country
+2015,18.1,237,5.3,0.13,0.1,United States
+2016,18.7,240,4.7,0.4,1.3,United States
+2017,19.5,245*,4.4,1.0,2.1,United States
+2018,20.6,251,3.9,1.83,2.4,United States
+2019,21.4,255,3.7,2.16,1.8,United States
+2020,,258*,8.1,0.36,1.2,United States
+2021,23.0,271,5.4,0.08,4.7,United States
+2022,25.0,292*,3.6,1.68,8.0,United States
+2023,27.0,305,3.7,5.02,4.1,United States
